@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D36AE9D2ADFFA2700E74B66 /* DeckSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D36AE9C2ADFFA2700E74B66 /* DeckSettingsView.swift */; };
+		2D5567D12AD9FCB60003EED7 /* WordsyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5567D02AD9FCB60003EED7 /* WordsyApp.swift */; };
+		2D5567D32AD9FCB60003EED7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5567D22AD9FCB60003EED7 /* ContentView.swift */; };
+		2D5567D52AD9FCB70003EED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5567D42AD9FCB70003EED7 /* Assets.xcassets */; };
+		2D5567D82AD9FCB70003EED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5567D72AD9FCB70003EED7 /* Preview Assets.xcassets */; };
+		2D5567E22AD9FCB70003EED7 /* WordsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5567E12AD9FCB70003EED7 /* WordsyTests.swift */; };
+		2D5567EC2AD9FCB70003EED7 /* WordsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5567EB2AD9FCB70003EED7 /* WordsyUITests.swift */; };
+		2D5567EE2AD9FCB70003EED7 /* WordsyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5567ED2AD9FCB70003EED7 /* WordsyUITestsLaunchTests.swift */; };
+		2D5567FB2ADA06060003EED7 /* DecksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5567FA2ADA06060003EED7 /* DecksView.swift */; };
+		2D5567FD2ADA07FD0003EED7 /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5567FC2ADA07FD0003EED7 /* HowToView.swift */; };
+		2D5567FF2ADA08050003EED7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5567FE2ADA08050003EED7 /* SettingsView.swift */; };
+		2D5568012ADA0C850003EED7 /* WordProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5568002ADA0C850003EED7 /* WordProcessor.swift */; };
+		2D5568092ADA4A850003EED7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5568082ADA4A850003EED7 /* GameView.swift */; };
+		2D55680B2ADA66180003EED7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D55680A2ADA66180003EED7 /* GameScene.swift */; };
+		2D55680D2ADA72740003EED7 /* Countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D55680C2ADA72740003EED7 /* Countries.txt */; };
+		2D55680F2ADBB5290003EED7 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D55680E2ADBB5290003EED7 /* DeckView.swift */; };
+		2D5568132ADBB6D30003EED7 /* Food.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D5568122ADBB6D30003EED7 /* Food.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D5567DE2AD9FCB70003EED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D5567C52AD9FCB60003EED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D5567CC2AD9FCB60003EED7;
+			remoteInfo = Wordsy;
+		};
+		2D5567E82AD9FCB70003EED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D5567C52AD9FCB60003EED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D5567CC2AD9FCB60003EED7;
+			remoteInfo = Wordsy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D36AE9C2ADFFA2700E74B66 /* DeckSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckSettingsView.swift; sourceTree = "<group>"; };
+		2D5567CD2AD9FCB60003EED7 /* Wordsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5567D02AD9FCB60003EED7 /* WordsyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsyApp.swift; sourceTree = "<group>"; };
+		2D5567D22AD9FCB60003EED7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D5567D42AD9FCB70003EED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D5567D72AD9FCB70003EED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D5567DD2AD9FCB70003EED7 /* WordsyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5567E12AD9FCB70003EED7 /* WordsyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsyTests.swift; sourceTree = "<group>"; };
+		2D5567E72AD9FCB70003EED7 /* WordsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5567EB2AD9FCB70003EED7 /* WordsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsyUITests.swift; sourceTree = "<group>"; };
+		2D5567ED2AD9FCB70003EED7 /* WordsyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D5567FA2ADA06060003EED7 /* DecksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksView.swift; sourceTree = "<group>"; };
+		2D5567FC2ADA07FD0003EED7 /* HowToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToView.swift; sourceTree = "<group>"; };
+		2D5567FE2ADA08050003EED7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2D5568002ADA0C850003EED7 /* WordProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProcessor.swift; sourceTree = "<group>"; };
+		2D5568082ADA4A850003EED7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		2D55680A2ADA66180003EED7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2D55680C2ADA72740003EED7 /* Countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Countries.txt; sourceTree = "<group>"; };
+		2D55680E2ADBB5290003EED7 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		2D5568122ADBB6D30003EED7 /* Food.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Food.txt; path = "../../../../Downloads/920ec3eaaa0a9f3cafd3a855557f5e0c-9c7337d7f6274de704f9018ed363d51dd7a0b128/Food.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5567CA2AD9FCB60003EED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5567DA2AD9FCB70003EED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5567E42AD9FCB70003EED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5567C42AD9FCB60003EED7 = {
+			isa = PBXGroup;
+			children = (
+				2D5567CF2AD9FCB60003EED7 /* Wordsy */,
+				2D5567E02AD9FCB70003EED7 /* WordsyTests */,
+				2D5567EA2AD9FCB70003EED7 /* WordsyUITests */,
+				2D5567CE2AD9FCB60003EED7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D5567CE2AD9FCB60003EED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D5567CD2AD9FCB60003EED7 /* Wordsy.app */,
+				2D5567DD2AD9FCB70003EED7 /* WordsyTests.xctest */,
+				2D5567E72AD9FCB70003EED7 /* WordsyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D5567CF2AD9FCB60003EED7 /* Wordsy */ = {
+			isa = PBXGroup;
+			children = (
+				2D5567D02AD9FCB60003EED7 /* WordsyApp.swift */,
+				2D5567D22AD9FCB60003EED7 /* ContentView.swift */,
+				2D5568002ADA0C850003EED7 /* WordProcessor.swift */,
+				2D5567FC2ADA07FD0003EED7 /* HowToView.swift */,
+				2D5567FE2ADA08050003EED7 /* SettingsView.swift */,
+				2D5567FA2ADA06060003EED7 /* DecksView.swift */,
+				2D55680E2ADBB5290003EED7 /* DeckView.swift */,
+				2D36AE9C2ADFFA2700E74B66 /* DeckSettingsView.swift */,
+				2D5568082ADA4A850003EED7 /* GameView.swift */,
+				2D55680A2ADA66180003EED7 /* GameScene.swift */,
+				2D5567D42AD9FCB70003EED7 /* Assets.xcassets */,
+				2D5568072ADA0E9F0003EED7 /* Decks */,
+				2D5567D62AD9FCB70003EED7 /* Preview Content */,
+			);
+			path = Wordsy;
+			sourceTree = "<group>";
+		};
+		2D5567D62AD9FCB70003EED7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D5567D72AD9FCB70003EED7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D5567E02AD9FCB70003EED7 /* WordsyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D5567E12AD9FCB70003EED7 /* WordsyTests.swift */,
+			);
+			path = WordsyTests;
+			sourceTree = "<group>";
+		};
+		2D5567EA2AD9FCB70003EED7 /* WordsyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D5567EB2AD9FCB70003EED7 /* WordsyUITests.swift */,
+				2D5567ED2AD9FCB70003EED7 /* WordsyUITestsLaunchTests.swift */,
+			);
+			path = WordsyUITests;
+			sourceTree = "<group>";
+		};
+		2D5568072ADA0E9F0003EED7 /* Decks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5568122ADBB6D30003EED7 /* Food.txt */,
+				2D55680C2ADA72740003EED7 /* Countries.txt */,
+			);
+			path = Decks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D5567CC2AD9FCB60003EED7 /* Wordsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5567F12AD9FCB70003EED7 /* Build configuration list for PBXNativeTarget "Wordsy" */;
+			buildPhases = (
+				2D5567C92AD9FCB60003EED7 /* Sources */,
+				2D5567CA2AD9FCB60003EED7 /* Frameworks */,
+				2D5567CB2AD9FCB60003EED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wordsy;
+			productName = Wordsy;
+			productReference = 2D5567CD2AD9FCB60003EED7 /* Wordsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D5567DC2AD9FCB70003EED7 /* WordsyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5567F42AD9FCB70003EED7 /* Build configuration list for PBXNativeTarget "WordsyTests" */;
+			buildPhases = (
+				2D5567D92AD9FCB70003EED7 /* Sources */,
+				2D5567DA2AD9FCB70003EED7 /* Frameworks */,
+				2D5567DB2AD9FCB70003EED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D5567DF2AD9FCB70003EED7 /* PBXTargetDependency */,
+			);
+			name = WordsyTests;
+			productName = WordsyTests;
+			productReference = 2D5567DD2AD9FCB70003EED7 /* WordsyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D5567E62AD9FCB70003EED7 /* WordsyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5567F72AD9FCB70003EED7 /* Build configuration list for PBXNativeTarget "WordsyUITests" */;
+			buildPhases = (
+				2D5567E32AD9FCB70003EED7 /* Sources */,
+				2D5567E42AD9FCB70003EED7 /* Frameworks */,
+				2D5567E52AD9FCB70003EED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D5567E92AD9FCB70003EED7 /* PBXTargetDependency */,
+			);
+			name = WordsyUITests;
+			productName = WordsyUITests;
+			productReference = 2D5567E72AD9FCB70003EED7 /* WordsyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D5567C52AD9FCB60003EED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2D5567CC2AD9FCB60003EED7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2D5567DC2AD9FCB70003EED7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2D5567CC2AD9FCB60003EED7;
+					};
+					2D5567E62AD9FCB70003EED7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2D5567CC2AD9FCB60003EED7;
+					};
+				};
+			};
+			buildConfigurationList = 2D5567C82AD9FCB60003EED7 /* Build configuration list for PBXProject "Wordsy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D5567C42AD9FCB60003EED7;
+			productRefGroup = 2D5567CE2AD9FCB60003EED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D5567CC2AD9FCB60003EED7 /* Wordsy */,
+				2D5567DC2AD9FCB70003EED7 /* WordsyTests */,
+				2D5567E62AD9FCB70003EED7 /* WordsyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5567CB2AD9FCB60003EED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5567D82AD9FCB70003EED7 /* Preview Assets.xcassets in Resources */,
+				2D5567D52AD9FCB70003EED7 /* Assets.xcassets in Resources */,
+				2D55680D2ADA72740003EED7 /* Countries.txt in Resources */,
+				2D5568132ADBB6D30003EED7 /* Food.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5567DB2AD9FCB70003EED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5567E52AD9FCB70003EED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5567C92AD9FCB60003EED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D36AE9D2ADFFA2700E74B66 /* DeckSettingsView.swift in Sources */,
+				2D5568012ADA0C850003EED7 /* WordProcessor.swift in Sources */,
+				2D5567FF2ADA08050003EED7 /* SettingsView.swift in Sources */,
+				2D55680B2ADA66180003EED7 /* GameScene.swift in Sources */,
+				2D5567D32AD9FCB60003EED7 /* ContentView.swift in Sources */,
+				2D5567D12AD9FCB60003EED7 /* WordsyApp.swift in Sources */,
+				2D55680F2ADBB5290003EED7 /* DeckView.swift in Sources */,
+				2D5567FD2ADA07FD0003EED7 /* HowToView.swift in Sources */,
+				2D5567FB2ADA06060003EED7 /* DecksView.swift in Sources */,
+				2D5568092ADA4A850003EED7 /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5567D92AD9FCB70003EED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5567E22AD9FCB70003EED7 /* WordsyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5567E32AD9FCB70003EED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5567EE2AD9FCB70003EED7 /* WordsyUITestsLaunchTests.swift in Sources */,
+				2D5567EC2AD9FCB70003EED7 /* WordsyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D5567DF2AD9FCB70003EED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D5567CC2AD9FCB60003EED7 /* Wordsy */;
+			targetProxy = 2D5567DE2AD9FCB70003EED7 /* PBXContainerItemProxy */;
+		};
+		2D5567E92AD9FCB70003EED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D5567CC2AD9FCB60003EED7 /* Wordsy */;
+			targetProxy = 2D5567E82AD9FCB70003EED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D5567EF2AD9FCB70003EED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D5567F02AD9FCB70003EED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5567F22AD9FCB70003EED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wordsy/Preview Content\"";
+				DEVELOPMENT_TEAM = 458295536Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appetite.Wordsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5567F32AD9FCB70003EED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wordsy/Preview Content\"";
+				DEVELOPMENT_TEAM = 458295536Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appetite.Wordsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D5567F52AD9FCB70003EED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 458295536Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appetite.WordsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordsy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wordsy";
+			};
+			name = Debug;
+		};
+		2D5567F62AD9FCB70003EED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 458295536Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appetite.WordsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordsy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wordsy";
+			};
+			name = Release;
+		};
+		2D5567F82AD9FCB70003EED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 458295536Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appetite.WordsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wordsy;
+			};
+			name = Debug;
+		};
+		2D5567F92AD9FCB70003EED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 458295536Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appetite.WordsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wordsy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5567C82AD9FCB60003EED7 /* Build configuration list for PBXProject "Wordsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5567EF2AD9FCB70003EED7 /* Debug */,
+				2D5567F02AD9FCB70003EED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5567F12AD9FCB70003EED7 /* Build configuration list for PBXNativeTarget "Wordsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5567F22AD9FCB70003EED7 /* Debug */,
+				2D5567F32AD9FCB70003EED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5567F42AD9FCB70003EED7 /* Build configuration list for PBXNativeTarget "WordsyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5567F52AD9FCB70003EED7 /* Debug */,
+				2D5567F62AD9FCB70003EED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5567F72AD9FCB70003EED7 /* Build configuration list for PBXNativeTarget "WordsyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5567F82AD9FCB70003EED7 /* Debug */,
+				2D5567F92AD9FCB70003EED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D5567C52AD9FCB60003EED7 /* Project object */;
+}
