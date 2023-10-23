@@ -23,7 +23,7 @@
 		2D55680B2ADA66180003EED7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D55680A2ADA66180003EED7 /* GameScene.swift */; };
 		2D55680D2ADA72740003EED7 /* Countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D55680C2ADA72740003EED7 /* Countries.txt */; };
 		2D55680F2ADBB5290003EED7 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D55680E2ADBB5290003EED7 /* DeckView.swift */; };
-		2D5568132ADBB6D30003EED7 /* Food.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D5568122ADBB6D30003EED7 /* Food.txt */; };
+		2D9B63082AE71E3500AD041E /* Food.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B63072AE71E3500AD041E /* Food.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 		2D55680A2ADA66180003EED7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2D55680C2ADA72740003EED7 /* Countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Countries.txt; sourceTree = "<group>"; };
 		2D55680E2ADBB5290003EED7 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
-		2D5568122ADBB6D30003EED7 /* Food.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Food.txt; path = "../../../../Downloads/920ec3eaaa0a9f3cafd3a855557f5e0c-9c7337d7f6274de704f9018ed363d51dd7a0b128/Food.txt"; sourceTree = "<group>"; };
+		2D9B63072AE71E3500AD041E /* Food.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Food.txt; path = "../../../../../Downloads/920ec3eaaa0a9f3cafd3a855557f5e0c-9c7337d7f6274de704f9018ed363d51dd7a0b128/Food.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +159,7 @@
 		2D5568072ADA0E9F0003EED7 /* Decks */ = {
 			isa = PBXGroup;
 			children = (
-				2D5568122ADBB6D30003EED7 /* Food.txt */,
+				2D9B63072AE71E3500AD041E /* Food.txt */,
 				2D55680C2ADA72740003EED7 /* Countries.txt */,
 			);
 			path = Decks;
@@ -271,8 +271,8 @@
 			files = (
 				2D5567D82AD9FCB70003EED7 /* Preview Assets.xcassets in Resources */,
 				2D5567D52AD9FCB70003EED7 /* Assets.xcassets in Resources */,
+				2D9B63082AE71E3500AD041E /* Food.txt in Resources */,
 				2D55680D2ADA72740003EED7 /* Countries.txt in Resources */,
-				2D5568132ADBB6D30003EED7 /* Food.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

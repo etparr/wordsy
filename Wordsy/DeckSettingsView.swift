@@ -24,8 +24,10 @@ struct DeckSettingsView: View {
                 }
                 HStack {
                     Button(action: {
-                        timeLeft -= 5
-                                }) {
+                        if timeLeft > 0 {
+                            timeLeft -= 5
+                        }
+                    }) {
                                     Text("-")
                                         .font(.headline)
                                         .foregroundColor(Color(red: 0.275, green: 0.51, blue: 0.663))
@@ -34,8 +36,10 @@ struct DeckSettingsView: View {
                                 }
                     Text("Timer: " + String(timeLeft))
                     Button(action: {
-                        timeLeft += 5
-                                }) {
+                        if timeLeft < 10000 {
+                            timeLeft += 5
+                        }
+                    }) {
                                     Text("+")
                                         .font(.headline)
                                         .foregroundColor(Color(red: 0.275, green: 0.51, blue: 0.663))

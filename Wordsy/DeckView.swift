@@ -18,13 +18,11 @@ struct DeckView: View {
             ZStack {
                 Image(imageName)
                     .resizable()
-                    .frame(width:(UIScreen.main.bounds.size.width / 2.15) , height: (UIScreen.main.bounds.size.height / 4.5))
-                    .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2)
+                    .frame(width: (UIScreen.main.bounds.size.width / 2.15), height: (UIScreen.main.bounds.size.height / 4.5))
+                    .border(Color.black, width: 2)
             }
         }
     }
 }
-#Preview {
-    DecksView()
-}
+
 
