@@ -20,6 +20,7 @@ class GameScene: SKScene {
     var introTime = 5
     var timeLeft: Int
     var finishedStack: [WordEntry] = []
+    var canCallTouchesBegan = false
     
     init(size: CGSize, filename: String, timeLeft: Int) {
         self.filename = filename
@@ -78,6 +79,7 @@ class GameScene: SKScene {
             timer?.invalidate()
             timer = nil
             introCountdownLabel.isHidden = true
+            canCallTouchesBegan = true
         }
     }
     func startCountdown2() {
@@ -117,6 +119,10 @@ class GameScene: SKScene {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        displayNextWord()
+        if canCallTouchesBegan {
+            displayNextWord()
+        }
     }
 }
+
+
